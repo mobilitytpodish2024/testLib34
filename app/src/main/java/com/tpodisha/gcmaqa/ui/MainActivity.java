@@ -47,6 +47,7 @@ import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
 
 import com.google.gson.JsonObject;
+import com.tpcodl.mylibrary.MyCalssWebView;
 import com.tpodisha.gcmaqa.BuildConfig;
 import com.tpodisha.gcmaqa.CommonMethods.CommonMethod;
 import com.tpodisha.gcmaqa.R;
@@ -108,6 +109,7 @@ public class MainActivity extends Activity implements AdvancedWebView.Listener {
         permissionStatus = getSharedPreferences("permissionStatus", MODE_PRIVATE);
 
         checkPermissions();
+
 
 
         initView();

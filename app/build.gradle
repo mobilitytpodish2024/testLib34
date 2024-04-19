@@ -76,3 +76,17 @@ dependencies {
 
 
 }
+
+/*
+afterEvaluate {
+    publishing{
+        publications{
+            release(MavenPublication){
+                from components.release
+                groupId='com.github.mobilitytpodish2024:testLib34'
+                version='1.0.0'
+            }
+        }
+    }
+
+}*/
